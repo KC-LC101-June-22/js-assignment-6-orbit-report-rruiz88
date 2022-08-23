@@ -13,7 +13,8 @@
         <td>HIGH</td>
         <td>2001-11-01</td>
   </tr> -->
-  <tr *ngFor="let satellite of satellites">
+  <tr *ngFor="let satellite of satellites"
+  [class.stripe]="satellite.zebra(satellites)">
     <td>{{satellite.name}}</td>
     <td [class.warning]="satellite.isSpaceDebris()">{{satellite.type}}</td>
     <td>{{satellite.operational}}</td>

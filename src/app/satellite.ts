@@ -20,9 +20,9 @@ export class Satellite {
 	
 	isSpaceDebris(): boolean {
 		return this.type === "Space Debris"
-
-   }
-
+}
+	zebra(arr): boolean {
+		return arr.indexOf(this) %	2===0 && this.type !== "Space Debris"}
 }
 
 // TODO 3a: fix isSpaceDebris check
