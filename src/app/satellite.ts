@@ -1,3 +1,7 @@
+import { style } from "@angular/animations";
+import { NgStyle } from "@angular/common";
+import { emitWarning } from "process";
+
 export class Satellite {
 
 	name: string;
@@ -15,7 +19,8 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
-		return true;
+		return this.type === "Space Debris"
+
    }
 
 }
