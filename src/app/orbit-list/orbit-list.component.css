@@ -27,6 +27,6 @@ th, td {
 	padding: 6px;
 }
 
-.stripe {
+tr:nth-child(even) {
 	background-color: aqua;
 }
