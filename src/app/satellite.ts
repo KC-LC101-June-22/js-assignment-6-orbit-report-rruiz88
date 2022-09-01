@@ -1,6 +1,6 @@
-import { style } from "@angular/animations";
-import { NgStyle } from "@angular/common";
-import { emitWarning } from "process";
+// import { style } from "@angular/animations";
+// import { NgStyle } from "@angular/common";
+// import { emitWarning } from "process";
 
 export class Satellite {
 
